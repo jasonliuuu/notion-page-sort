@@ -4,7 +4,7 @@ from yaspin import yaspin
 from notion.client import NotionClient
 
 pattern = r"#(\d+)\ "
-token = "{GET-TOKEN-FROM-LOGINED-NOTION's-COOKIE}"
+token = "{GET-TOKEN-FROM-LOGINED-NOTION'S-COOKIE}"
 url = "{NOTION-PAGE-URL}"
 
 

@@ -1,21 +1,21 @@
 # 📋 Notion Page Sort
 
-Sort Notion's sub-page by title (or part of title's content). Very simple, bare-bone script, with only 40+ lines of code but a decent terminal UI.
+Sort through Notion's sub-page by title (or part of its title, such as number `1` in title `#1 My Notion Page`). Notion Page Sort is a very simple, bare-bone script, with only 40+ lines of code but still utilizes a decent terminal UI.
 
 ![](https://i.loli.net/2019/12/24/LhSdiHU4EOAPBlV.gif)
 
 ## Config
 
-Change configurations in line 6 to line 8 in `main.py`:
+Modify configurations from line 6 to line 8 in `main.py`:
 
 ```python
 # Regex match pattern
 pattern = r"#(\d+)\ "
 
 # Notion's Login Cookie
-token = "{GET-TOKEN-FROM-LOGINED-NOTION's-COOKIE}"
+token = "{GET-TOKEN-FROM-LOGINED-NOTION'S-COOKIE}"
 
-# Notion's root page to sort
+# Notion's root page to sort through
 url = "{NOTION-PAGE-URL}"
 ```
 

@@ -17,8 +17,11 @@ def getBlockIndex(block):
 
 
 def getBlockIndex(block):
-  index = re.findall(pattern, block)[0]
-  return index
+  try:
+    index = re.findall(pattern, block)[0]
+    return index
+  except:
+    return 0
 
 
 if __name__ == "__main__":

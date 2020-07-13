@@ -8,12 +8,12 @@ token = "{GET-TOKEN-FROM-LOGINED-NOTION'S-COOKIE}"
 url = "{NOTION-PAGE-URL}"
 
 
-def getBlockIndex(block):
-    try:
-        index = re.findall(pattern, block)[0]
-        return index
-    except IndexError as e:
-        print('Index Error occurred')
+# def getBlockIndex(block):
+#     try:
+#         index = re.findall(pattern, block)[0]
+#         return index
+#     except IndexError as e:
+#         print('Index Error occurred')
 
 
 def getBlockIndex(block):

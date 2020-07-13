@@ -22,6 +22,7 @@ def getBlockIndex(block):
 
 
 if __name__ == "__main__":
+  start = time.time()
   with yaspin(text="Fetching Notion page...", color="blue") as spinner:
     page = initNotionPage()
     if page:
@@ -44,4 +45,5 @@ if __name__ == "__main__":
 
     spinner.ok("✔")
 
-  print("Done sorting.")
+  print(f"Done sorting./nTook {time.time()-start} secs")
+  

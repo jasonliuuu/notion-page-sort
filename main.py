@@ -30,10 +30,9 @@ if __name__ == "__main__":
       spinner.fail("✗")
 
   with yaspin(text="Analyzing blocks...", color="yellow") as spinner:
-    blockCount = 0
-    for child in page.children:
-      spinner.write("> Block " + getBlockIndex(child.title) + " analyzed")
-      blockCount += 1
+    blockCount = len(page.children)
+    spinner.write(f"> A total of {blockCount} blocks analyzed")
+      
 
   with yaspin(text="Sorting blocks in ascending order...", color="magenta") as spinner:
     for i in range(blockCount):

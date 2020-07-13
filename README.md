@@ -51,6 +51,8 @@ python main.py
 
 If (or when) Notion releases their official API, I will try to implement this script using a single web request, so that the sorting can be done offline.
 
+P.S. By the time the API is available, I may or may not consider switching to a faster sorting algorithm, say, Quicksort/TimSort/Merge sort...
+
 ---
 
 **📋 Notion Page Sort** ©Spencer Woo. Released under the [MIT License](./LICENSE).
